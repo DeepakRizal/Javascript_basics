@@ -1,3 +1,20 @@
+// Great! Here's a Bonus Challenge Problem that combines all the ES6+ concepts you’ve practiced:
+
+// 💡 Problem Statement:
+// You are building a student grading system where:
+
+// Destructure student details (name, age, subjects).
+// Destructure subjects array to get the first two subjects separately.
+// Use spread to combine existing students with a new student.
+// Use the rest operator to calculate the average of any number of scores.
+// Use arrow functions & template literals to display the final student report.
+// 📝 Task:
+// Extract name, age, and subjects from the student object using object destructuring.
+// Extract the first two subjects separately using array destructuring.
+// Use the spread operator to add a new student to the students array.
+// Create an arrow function calculateAverage(...scores) that takes multiple scores and returns the average.
+// Use template literals to display the student’s name, age, and average score in a sentence.
+
 const student = {
   name: "Emma",
   age: 20,
